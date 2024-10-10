@@ -6,7 +6,7 @@
 }
 
 .main {
-  min-height: 1000px;
+  height: 100vh;
   background-image: url(../img/bg_main.png);
   background-position: center/center;
   background-size: cover;
@@ -525,6 +525,8 @@ footer .questions .btn_send:hover {
   .main .title {
     margin-left: 100px;
     margin-left: 0;
+    width: 70%;
+    font-size: 41px;
   }
   .main .wrapper_link {
     margin: 30px;
@@ -833,7 +835,7 @@ footer .questions .btn_send:hover {
   }
   .main .wrapper_link {
     width: 100%;
-    margin: 70px 0 0 0;
+    margin: 50px 0 0 0;
   }
   .menu .wrapper_menu {
     grid-template-columns: none;
@@ -907,11 +909,11 @@ footer .questions .btn_send:hover {
     top: 75%;
   }
   .offer {
-    padding: 100px 30px 80px 30px;
+    padding: 50px 30px 80px 30px;
     min-height: 500px;
   }
   .offer .offer_holiday {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 200;
     letter-spacing: 1px;
   }
@@ -921,12 +923,12 @@ footer .questions .btn_send:hover {
     grid-auto-rows: minmax(300px, auto);
     grid-template-columns: none;
     margin: 40px 30px 0 30px;
-    row-gap: 30px;
+    row-gap: 80px;
   }
   .offer .wrapper_offer .descrip_offer {
     font-size: 18px;
     padding: 0;
-    margin-top: 10px;
+    margin-top: 17px;
   }
   .offer .wrapper_offer .wrapper_cake {
     display: grid;
@@ -953,7 +955,7 @@ footer .questions .btn_send:hover {
   .offer_cupcaked .title_cupcaked {
     position: static;
     margin-top: 0;
-    font-size: 24px;
+    font-size: 28px;
     letter-spacing: 1px;
     padding-bottom: 85px;
     left: 0;
@@ -962,7 +964,7 @@ footer .questions .btn_send:hover {
     grid-template-columns: none;
     grid-auto-rows: minmax(50px, auto);
     margin-right: 0px;
-    padding: 50px 30px 80px 30px;
+    padding: 50px 30px 50px 30px;
     row-gap: 30px;
   }
   .offer_cupcaked .wrapper_items .item_cupcaked {
@@ -1016,6 +1018,12 @@ footer .questions .btn_send:hover {
     justify-items: start;
     padding: 50px 30px 10px 30px;
   }
+  footer .wrapper_items .number_phone {
+    color: white;
+  }
+  footer .wrapper_items .number_phone_add {
+    color: white;
+  }
   footer .wrapper_items .email_address_one {
     font-size: 18px;
   }
@@ -1028,6 +1036,9 @@ footer .questions .btn_send:hover {
   footer .wrapper_items .social_items {
     margin-top: 30px;
     width: 80%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 @media screen and (max-width: 350px) {
