@@ -7,9 +7,9 @@
 }
 
 .register {
-  background-image: url(/img/blur_cake_bg.png);
+  background-image: url('/img/blur_cake_bg.png');
   height: 100vh;
-  background-position: center/center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
